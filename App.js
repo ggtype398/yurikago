@@ -24,8 +24,8 @@
 
 // export default App;
 
-import { useState, useEffect } from "react";
-import axios from "axios";
+import { useState, useEffect } from "https://github.com/facebook/react";
+import axios from "https://github.com/axios/axios";
 import "./App.css"; //./styles.css";
 
 export default function App() {
