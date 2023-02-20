@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ゆりかごさんぷる</title>
+    <meta charset="UTF-8" />
+    <title>App</title>
+    <script src="https://unpkg.com/react@17.0.2/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.development.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   </head>
   <body>
+    <div id="root"></div>
+ <script type="module">
+  import App from "./App.js";
+  const rootElement = document.getElementById("root");
+  ReactDOM.render(React.createElement(App), rootElement);
+</script>
 
-<div id="yurikago_container"></div>
-
-    aっっっっｂaｗｗｗｗｗｗ
-
-<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
-  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
-<script src="App.js"></script>
   </body>
 </html>
